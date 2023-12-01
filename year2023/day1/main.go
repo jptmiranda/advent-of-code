@@ -78,7 +78,5 @@ func getCalibrationValue(line string) int {
 	joinedNumbers := fmt.Sprintf("%d%d", numbers[0], numbers[len(numbers)-1])
 	value, _ := strconv.Atoi(joinedNumbers)
 
-	fmt.Printf("%d|", value)
-
 	return value
 }
